@@ -1,0 +1,1590 @@
+
+/* Видимість блоків під різні екрани */
+.mobile-content,
+.desktop-content {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+.burger-container {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 1000;
+}
+
+.burger {
+  font-size: 28px;
+  cursor: pointer;
+  color: #4b1535;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: #f3c8dd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.burger-menu  {
+  text-decoration: none;
+  color: #4b1535;
+  padding: 8px 0;
+  font-size: 16px;
+  font-family: 'Cormorant SC', serif;
+}
+
+.burger-menu.show {
+  display: flex;
+}
+
+
+  .mobile-content {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .desktop-content {
+    display: block;
+  }
+}
+
+
+/* Мобілка */
+@media (max-width: 768px) {
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+
+.v66_38 {
+  width: 390px;
+  height: 1689px;
+  background: linear-gradient(rgba(243,200,221,1), rgba(180,104,142,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v66_48 {
+  width: 172px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  font-family: Inknut Antiqua;
+  font-weight: ExtraBold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v75_11 {
+  width: 170px;
+  color: rgba(164,105,134,1);
+  position: absolute;
+  top: 25px;
+  left: 170px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+#video3 {
+      position: absolute; /* або relative */
+      top: 1100px;   /* відступ зверху */
+      left:40px;  /* відступ зліва */
+      width: 300px;
+      height: 170px;
+    }
+    #video4 {
+      position: absolute; /* або relative */
+      top: 1280px;   /* відступ зверху */
+      left:40px;  /* відступ зліва */
+      width: 300px;
+      height: 170px;
+    }
+    
+#text4 {
+      position: absolute;
+      top: 1460px; /* трохи нижче відео */
+      left: 95px;
+      width: 300px;
+      font-size: 18px;
+      color: #333;
+    }
+    
+
+.v75_12 {
+  width: 12px;
+  height: 12px;
+  background: url("../images/phone_v75_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 301px;
+  overflow: hidden;
+}
+.v77_30 {
+  width: 196px;
+  height: 16px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 93px;
+  left: 168px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v77_31 {
+  width: 194px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 90px;
+  left: 173px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_33 {
+  width: 195px;
+  height: 16px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 117px;
+  left: 168px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v77_68 {
+  width: 390px;
+  height: 196px;
+  background: rgba(75,21,53,1);
+  opacity: 1;
+  position: absolute;
+  top: 1494px;
+  left: 0px;
+}
+.v77_34 {
+  width: 195px;
+  height: 15px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 140px;
+  left: 168px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v77_35 {
+  width: 195px;
+  height: 16px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 163px;
+  left: 168px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v77_36 {
+  width: 195px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 115px;
+  left: 167px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_37 {
+  width: 195px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 159px;
+  left: 168px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_38 {
+  width: 196px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 137px;
+  left: 168px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_48 {
+    width: 132px;
+    height: 141px;
+    position: absolute;
+    top: 58px;
+    left: 20px;
+    opacity: 0.84; 
+    border-radius: 20px; 
+    object-fit: cover; 
+    display: block; 
+}
+.v77_50 {
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    top: 234px;
+    left: 205px;
+    opacity: 0.9; 
+    border-radius: 28px; 
+    object-fit: cover; 
+    object-position: center center; 
+    display: block; 
+}
+.v77_56 {
+  width: 190px;
+  color: rgba(81,22,44,1);
+  position: absolute;
+  top: 234px;
+  left: 17px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_77 {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 1654px;
+    left: 158px;
+    border-radius: 20px;
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+}
+.v77_60 {
+    width: 390px;
+    height: 223px;
+    position: absolute;
+    top: 871px;
+    left: 0px;
+    object-fit: cover;
+    object-position: center center;
+    display: block;
+    opacity: 0.5; 
+}
+.v77_62 {
+  width: 350px;
+  color: rgba(239,191,208,1);
+  position: absolute;
+  top: 871px;
+  left: 5px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+} 
+
+.v77_69 {
+  width: 150px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1530px;
+  left: 126px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_70 {
+  width: 120px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1573px;
+  left: 141px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_71 {
+    
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 1654px;
+    left: 185px;
+    
+    
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%; 
+    
+    
+    display: block;
+    image-rendering: crisp-edges; 
+    
+   
+    transition: transform 0.2s ease;
+}
+
+
+.v77_71:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.v77_72 {
+   
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 1654px;
+    left: 213px;
+    
+    
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%; /* Идеальный круг */
+    
+    /* Оптимизация */
+    display: block;
+    image-rendering: -webkit-optimize-contrast; /* Четкость для WebKit */
+    image-rendering: crisp-edges; /* Четкость для других браузеров */
+    
+    /* Интерактивность */
+    transition: all 0.15s ease-out;
+    will-change: transform; /* Оптимизация анимации */
+}
+
+/* Состояния */
+.v77_72:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    filter: brightness(1.1); /* Легкое свечение */
+}
+
+.v77_72:active {
+    transform: scale(0.95);
+}
+.v77_73 {
+  width: 93px;
+  color: rgba(231,171,200,1);
+  position: absolute;
+  top: 1631px;
+  left: 154px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v144_2 {
+  width: 158px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 576px;
+  left: 212px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v142_6 {
+  width: 350px;
+  height: 148px;
+  background: url("../images/v142_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 932px;
+  left: 20px;
+  overflow: hidden;
+}
+.v77_64 {
+  width: 350px;
+  color: rgba(244,196,224,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.v77_57 {
+  width: 174px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 280px;
+  left: 20px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v144_4 {
+  width: 181px;
+  color: rgba(82,23,44,1);
+  position: absolute;
+  top: 520px;
+  left: 194px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.v146_13 {
+    width: 176px;
+    height: 147px;
+    position: absolute;
+    top: 544px;
+    left: 20px;
+    opacity: 1;
+    border-radius: 26px; /* Объединенное свойство для всех углов */
+    object-fit: cover; /* Аналог background-size: cover */
+    object-position: center center; /* Аналог background-position */
+    display: block; /* Для корректного отображения */
+}
+.v146_11 {
+  width: 339px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 423px;
+  left: 20px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v146_16 {
+  width: 352px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 716px;
+  left: 12px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+
+}
+
+/* ПК стили */
+@media (min-width: 769px) {
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.burger-container {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 1000;
+}
+
+.burger {
+  font-size: 28px;
+  cursor: pointer;
+  color: #4b1535;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: #f3c8dd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.burger-menu  {
+  text-decoration: none;
+  color: #4b1535;
+  padding: 8px 0;
+  font-size: 16px;
+  font-family: 'Cormorant SC', serif;
+}
+#video1 {
+      position: absolute; /* або relative */
+      top: 3100px;   /* відступ зверху */
+      left:85px;  /* відступ зліва */
+      width: 640px;
+      height: 480px;
+    }
+#video2 {
+      position: absolute;
+      top: 3100px; /* нижче, щоб не перекривалося */
+      left: 800px;
+      width: 640px;
+      height: 480px;
+    }
+
+/*
+ .video-section {
+  width: 100%;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(243,200,221,0.7), rgba(180,104,142,0.8));
+}
+
+.video-wrapper {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+*/
+.burger-menu.show {
+  display: flex;
+}
+
+.v1_2 {
+  width: 100%;
+  height: 4052px;
+  background: linear-gradient(rgba(243,200,221,1), rgba(180,104,141,1));
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.burger-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.burger {
+  font-size: 28px;
+  cursor: pointer;
+  color: #4b1535;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: #f3c8dd;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 999;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  color: #4b1535;
+  padding: 8px 0;
+  font-size: 16px;
+  font-family: 'Cormorant SC', serif;
+}
+
+.burger-menu.show {
+  display: flex;
+}
+
+.v1_62 {
+  width: 100%;
+  height: 207px;
+  background: rgba(113,85,122,0);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 34px;
+  overflow: hidden;
+}
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1000;
+  pointer-events: none; /* щоб кліки проходили крізь відео */
+  overflow: hidden;
+}
+
+.background-video iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.v1_3 {
+  width: 303px;
+  height: 99px;
+  background: rgba(75,21,53,0);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  overflow: hidden;
+}
+.v1_26 {
+  width: 146px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 34px;
+  left: 50px;
+  font-family: Inknut Antiqua;
+  font-weight: ExtraBold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_35 {
+  width: 75px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 49px;
+  left: 331px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_31 {
+  width: 153px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 49px;
+  left: 439px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_37 {
+  width: 151px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 48px;
+  left: 594px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_44 {
+  width: 163px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 48px;
+  left: 750px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v66_11 {
+  width: 192px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 49px;
+  left: 886px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v66_15 {
+  width: 150px;
+  color: rgba(209,131,169,1);
+  position: absolute;
+  top: 48px;
+  left: 1029px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v30_9 {
+  width: 100%;
+  height: 827px;
+  background: url("./images/pc_v30_9.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2305px;
+  left: 0px;
+  overflow: hidden;
+}
+.v1_55 {
+  width: 387px;
+  height: 69px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 347px;
+  left: 497px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v1_60 {
+  width: 387px;
+  height: 69px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 441px;
+  left: 497px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v1_56 {
+  width: 387px;
+  height: 69px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 253px;
+  left: 497px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v1_58 {
+  width: 387px;
+  height: 69px;
+  background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 497px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v1_48 {
+  width: 354px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 368px;
+  left: 503px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 23px;
+  opacity: 1;
+  text-align: center;
+}
+/* Кнопка виклику форми */
+.feedback-btn {
+  position: absolute;
+  top: 4020px;
+  left: 650px;
+  font-family: Cormorant SC;
+  font-weight: Bold;
+  font-size: 20px;
+  color: rgba(209,131,169,1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.feedback-btn:hover {
+  color: #f3c8dd;
+  transform: scale(1.05);
+}
+
+/* Модальне вікно */
+.feedback-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75,21,53,0.8);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: linear-gradient(rgba(243,200,221,1), rgba(234,180,206,1));
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  position: relative;
+  animation: modalAppear 0.4s;
+}
+
+@keyframes modalAppear {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.close-modal {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #4b1535;
+}
+
+.modal-content h3 {
+  color: #4b1535;
+  font-family: Cormorant SC;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #b4688e;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.8);
+  font-family: Kdam Thmor;
+}
+
+.modal-content textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 12px;
+  background: #b4688e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: Cormorant SC;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.modal-content button:hover {
+  background: #8e4a6e;
+}
+
+/* Мобільна версія */
+@media (max-width: 768px) {
+  .feedback-btn {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+  }
+  
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+  }
+}
+.v1_49 {
+  width: 315px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 268px;
+  left: 514px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 23px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_51 {
+  width: 314px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 555px;
+  left: 517px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 23px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_53 {
+  width: 368px;
+  color: rgba(85,75,85,1);
+  position: absolute;
+  top: 465px;
+  left: 509px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 23px;
+  opacity: 1;
+  text-align: center;
+}
+.under_video {
+  width: 466px;
+  color: rgba(81,22,44,1);
+  position: absolute;
+  top: 3590px;
+  left: 520px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_89 {
+  width: 466px;
+  color: rgba(81,22,44,1);
+  position: absolute;
+  top: 774px;
+  left: 41px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_90 {
+  width: 589px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 867px;
+  left: 41px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v1_96-img {
+  width: 650px;
+  height: 650px;
+  object-fit: cover; /* заменяет background-size: cover */
+  position: absolute;
+  top: 723px;
+  left: 730px;
+  border-radius: 28px;
+  /* overflow: hidden не нужен для img */
+}
+.v1_98 {
+  width: 567px;
+  color: rgba(239,191,208,1);
+  position: absolute;
+  top: 2384px;
+  left: 430px;
+  font-family: Cormorant SC;
+  font-weight: SemiBold;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_99 {
+  width: 889px;
+  color: rgba(244,196,224,1);
+  position: absolute;
+  top: 2510px;
+  left: 269px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v1_138 {
+  width: 331px;
+  color: rgba(164,105,134,1);
+  position: absolute;
+  top: 40px;
+  left: 1160px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v28_4 {
+  width: 40px;
+  height: 40px;
+  background: url("./images/pc_v28_4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 1204px;
+  overflow: hidden;
+}
+.v28_6-img {
+  width: 391px;
+  height: 416px;
+  object-fit: cover; /* аналог background-size: cover */
+  opacity: 0.84;
+  position: absolute;
+  top: 219px;
+  left: 41px;
+  border-radius: 20px;
+}
+}
+.v28_7 {
+  width: 425px;
+  height: 416px;
+  background: url("./images/pc_v28_7.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.8399999737739563;
+  position: absolute;
+  top: 219px;
+  left: 978px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v30_10 {
+  width: 100%;
+  height: 660px;
+  background: rgba(75,21,53,1);
+  opacity: 1;
+  position: absolute;
+  top: 3638px;
+  left: 0px;
+}
+.v30_12 {
+  width: 556px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3701px;
+  left: 442px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v30_14 {
+  width: 390px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3836px;
+  left: 522px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.v32_15 {
+  width: 67px;
+  height: 67px;
+  background: url("./images/pc_v32_15.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3923px;
+  left: 578px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v32_16 {
+  width: 67px;
+  height: 67px;
+  background: url("./images/pc_v32_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3923px;
+  left: 686px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v32_17 {
+  width: 67px;
+  height: 67px;
+  background: url("./images/pc_v32_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3923px;
+  left: 794px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.v66_2 {
+  width: 288px;
+  color: rgba(231,171,200,1);
+  position: absolute;
+  top: 3759px;
+  left: 570px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v66_3 {
+  width: 46px;
+  height: 46px;
+  background: url("./images/pc_v66_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3759px;
+  left: 578px;
+  overflow: hidden;
+}
+.v114_10 {
+  width: 884px;
+  color: rgba(244,196,224,1);
+  position: absolute;
+  top: 2798px;
+  left: 274px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v146_7 {
+  width: 592px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 1669px;
+  left: 811px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: center;
+}
+.v146_10 {
+  width: 589px;
+  color: rgba(83,39,65,1);
+  position: absolute;
+  top: 1134px;
+  left: 41px;
+  font-family: Kdam Thmor;
+  font-weight: Regular;
+  font-size: 25px;
+  opacity: 1;
+  text-align: left;
+}
+.v146_8 {
+  width: 345px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1533px;
+  left: 906px;
+  font-family: Cormorant SC;
+  font-weight: Regular;
+  font-size: 35px;
+  opacity: 1;
+  text-align: center;
+}
+.v146_14 {
+  width: 712px;
+  height: 594px;
+  background: url("./images/pc_v146_14.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1566px;
+  left: 41px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+/* Стилі для кнопки з олівцем */
+.mobile-feedback-btn {
+   position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(rgba(222,157,189,1), rgba(234,180,206,1));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(75,21,53,0.3);
+    z-index: 999;
+    cursor: pointer;
+    font-size: 32px;
+    color: #4b1535;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border: 2px solid #fff;
+    animation: pencil-bounce 2s infinite;
+  }
+  @media (min-width: 769px) {
+  .mobile-feedback-btn {
+    display: none !important;
+  }
+}
+
+/* Стилі для модального вікна */
+.mobile-modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75,21,53,0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-contact-form {
+  width: 90%;
+  max-width: 350px;
+  background: linear-gradient(rgba(243,200,221,1), rgba(234,180,206,1));
+  padding: 20px;
+  border-radius: 15px;
+  position: relative;
+}
+/* Стилі для блоку цін */
+.pricing-section {
+  padding: 60px 20px;
+  background: linear-gradient(rgba(243,200,221,0.8), rgba(180,104,142,0.9));
+  text-align: center;
+}
+
+.pricing-section h2 {
+  font-family: 'Cormorant SC', serif;
+  color: #4b1535;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(75,21,53,0.1);
+  transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-card.featured {
+  border: 2px solid #b4688e;
+  position: relative;
+}
+
+.pricing-card h3 {
+  font-family: 'Cormorant SC', serif;
+  color: #4b1535;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-family: 'Inknut Antiqua', serif;
+  color: #b4688e;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.pricing-card li {
+  font-family: 'Kdam Thmor', sans-serif;
+  color: #4b1535;
+  padding: 8px 0;
+  border-bottom: 1px dashed #e0c0d0;
+}
+
+.price-btn {
+  background: #b4688e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-family: 'Cormorant SC', serif;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.price-btn:hover {
+  background: #8e4a6e;
+  transform: scale(1.05);
+}
+
+/* Мобільна версія */
+@media (max-width: 768px) {
+  .pricing-section {
+    padding: 40px 15px;
+  }
+  
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    width: 90%;
+    max-width: 350px;
+    padding: 20px;
+  }
+  
+  .price {
+    font-size: 28px;
+  }
+}
+/* Стилі для модального вікна з послугами */
+.services-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75,21,53,0.9);
+  z-index: 1001;
+  overflow-y: auto;
+}
+
+.services-modal .modal-content {
+  background: linear-gradient(rgba(243,200,221,1), rgba(234,180,206,1));
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  animation: modalFadeIn 0.4s;
+}
+
+.close-services {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 30px;
+  color: #4b1535;
+  cursor: pointer;
+}
+
+.services-modal h2 {
+  color: #4b1535;
+  font-family: 'Cormorant SC', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.service-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #4b1535;
+  font-family: 'Cormorant SC', serif;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.service-price {
+  color: #b4688e;
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.service-duration {
+  color: #7a5c71;
+  font-family: 'Kdam Thmor', sans-serif;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  color: #4b1535;
+  font-family: 'Kdam Thmor', sans-serif;
+  line-height: 1.5;
+}
+
+.book-all {
+  display: block;
+  width: 250px;
+  margin: 20px auto 0;
+  padding: 15px;
+  background: #b4688e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Cormorant SC', serif;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.book-all:hover {
+  background: #8e4a6e;
+  transform: scale(1.05);
+}
+
+/* Адаптація для мобільних */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .services-modal .modal-content {
+    padding: 20px;
+    margin: 30px auto;
+  }
+  
+  .service-card {
+    padding: 20px;
+  }
+ 
+}
